@@ -48,7 +48,7 @@ def CR2_to_pgm(filename):
 def jpg_to_pgm(filename, Rfile, Gfile, Bfile):
     """ Use matplotlib to convert color jpg file into three PGM files, one for each color channel.
     """
-    img = mpimg.imread(filename)[::-1,:,:]
+    img = mpimg.imread(filename)
     write_pgm(img[:,:,0], Rfile)
     write_pgm(img[:,:,1], Gfile)
     write_pgm(img[:,:,2], Bfile)
