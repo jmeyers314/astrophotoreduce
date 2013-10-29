@@ -18,6 +18,7 @@ develop-eggs
 lib
 lib64
 data
+.ipynb_checkpoints
 __pycache__
 
 # Installer logs
@@ -35,3 +36,6 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# output files
+*.fits
